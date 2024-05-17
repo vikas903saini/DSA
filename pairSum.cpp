@@ -23,8 +23,8 @@ vector<vector<int>>pairSum(vector<int> arr, int s){
                 ans.push_back(temp);
                 j++;
             }
-            else if(arr[i]+arr[j]<s)
-                j++;
+            // else if(arr[i]+arr[j]<s)
+            //     j++;
             else {
                 j++;
             }
