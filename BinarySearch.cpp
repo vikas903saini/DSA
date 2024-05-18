@@ -20,7 +20,7 @@ int main(){
     int evenIndex[6]={2,4,8,10,18,20};
     int oddIndex[5]={1,4,6,11,19};
     cout<<"Index at 8 : "<<binary_search(evenIndex,6,8)<<endl;
-    cout<<"Index at 19 : "<<binary_search(oddIndex,5,20);
+    cout<<"Index at 19 : "<<binary_search(oddIndex,5,19);
 
     return 0;
 
