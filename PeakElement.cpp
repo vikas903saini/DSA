@@ -25,6 +25,6 @@ int peakEle(vector<int> arr){
 }
 int main(){
     vector<int> arr = {0,1,2,4,-1,-2};
-    cout<<"Peak Element in mountain arr : "<<peakEle(arr);
+    cout<<"Peak Element in mountain arr f: "<<peakEle(arr);
     return 0;
 }
